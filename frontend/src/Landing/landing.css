@@ -1,0 +1,164 @@
+.cards {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 5%;
+}
+
+.landing {
+  background-color: #fff;
+}
+
+.contact-para {
+  font-weight: 300;
+}
+
+.citems {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+.service {
+  margin-left: 40%;
+  font-size: 3rem;
+  margin-top: 8%;
+}
+
+footer {
+  padding: 2.5rem 0;
+  background-color: #182334;
+  color: #fff;
+  height: 455px;
+  margin-top: 120px;
+}
+
+footer h2 {
+  color: #fff;
+}
+
+.aboutus {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 2%;
+}
+
+.row1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 42px;
+  margin-left: 35%;
+}
+
+.insta,
+.facebook,
+.linkdn,
+.twiter {
+  padding-left: 50px;
+}
+
+.c4 {
+  display: flex;
+}
+.copyright {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+a {
+  text-decoration: none;
+  color: aliceblue;
+}
+
+a:hover {
+  color: rgb(177, 118, 169);
+}
+
+.container li {
+  list-style: none;
+  font-size: 1rem;
+  font-weight: 400;
+  color: #fff;
+  cursor: pointer;
+  margin: 1rem 0;
+}
+
+.copyright {
+  margin-top: 50px;
+}
+
+.headimg1 {
+  height: 60%;
+  width: 45%;
+  margin-right: 5%;
+  margin-left: 4%;
+  margin-top: 5%;
+}
+
+.headimg2 {
+  height: 40%;
+  width: 40%;
+  margin-right: 4%;
+  margin-left: 4%;
+  margin-top: 2%;
+}
+
+.form {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-left: -6%;
+  width: 100%;
+  margin-top: -10%;
+}
+
+.uppercomp {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 5%;
+  margin-left: 3%;
+}
+
+.written {
+  font-size: 1.5rem;
+  margin: 0;
+  font-weight: lighter;
+  width: 75%;
+  padding: 0 2rem;
+}
+
+.display-2 {
+  color: #182334;
+  margin-top: 15%;
+  font-size: 3rem;
+  font-weight: 500;
+}
+
+.main-para {
+  color: rgb(91, 89, 89);
+  font-weight: 300;
+  font-size: 1.2rem;
+}
+
+.mainbutton {
+  margin-left: 20%;
+  margin-top: 5%;
+  width: 50%;
+  height: 10%;
+}
+
+.contactus {
+  width: 40%;
+  margin-left: 10%;
+}
+
+.contact-display-2 {
+  margin-left: 55%;
+  margin-top: 10%;
+  font-weight: lighter;
+  width: 40%;
+  font-size: 1.2rem;
+  /* padding: 0 2rem; */
+}

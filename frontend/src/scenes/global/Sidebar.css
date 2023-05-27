@@ -1,0 +1,59 @@
+.sidebar {
+  width: 15%;
+  height: 105vh;
+  background-color: white;
+}
+.icon {
+  float: left;
+  margin-right: 3%;
+  color: rgb(44, 19, 231);
+}
+
+.side-opt {
+  align-items: centre;
+  justify-content: centre;
+  text-align: centre;
+  padding-top: 20%;
+  margin-right: 23%;
+}
+/* .side-opt li {
+  list-style: none;
+  font-size: 0.84rem;
+  cursor: pointer;
+  color: black;
+} */
+
+/* li {
+  align-items: centre;
+  padding-top: 8px;
+  padding-left: 3px;
+  padding-bottom: 8px;
+  display: flex;
+  margin-bottom: 10%;
+  border-radius: 6px;
+} */
+/* 
+li:hover {
+  background-color: rgba(44, 19, 231, 0.925);
+  color: white;
+} */
+
+/* .li:hover ~ .icon{
+  color: white;
+} */
+
+/* .hm:hover {
+  color: white;
+}
+
+.st:hover {
+  color: white;
+}
+
+.pf:hover {
+  color: white;
+}
+
+.wk:hover {
+  color: white;
+} */

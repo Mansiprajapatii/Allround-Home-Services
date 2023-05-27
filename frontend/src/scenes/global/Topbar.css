@@ -1,0 +1,83 @@
+.topbar {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  height: 60px;
+  line-height: 90px;
+}
+
+.logo {
+  display: flex;
+  justify-content: space-around;
+  width: 20rem;
+  height:500px ;
+  margin-top: -200px;
+}
+
+
+
+.dorpdown{
+   height: 200px;
+  width: 220px;
+  margin-left: -180px;
+ margin-top: 50%;
+  list-style: none;
+  margin-top: 5px;
+  z-index: 3;
+  align-items: centre;
+  display: flex;
+  border-radius: 6px;
+  position: absolute; 
+
+
+} 
+.droplist{
+  align-items: center;
+  position: absolute;
+  margin-left: 45px;
+  margin-top: 8px;
+  width: 175px; 
+  padding:  25px;
+  box-shadow: 50px;
+  /* border: 1px solid grey; */
+  border-radius:15px ;
+  background-color: rgb(255, 255, 255);
+
+} 
+
+.droplist::before{
+  content: '';
+  position: absolute;
+  top: -0.3rem;
+  right:0.5rem ;
+  width: 25px;
+  height: 25px;
+  transform: rotate(45deg);
+  background-color: white ;
+}
+
+/* .list{
+  height: 30px;
+  margin-top: -5px;
+  margin-left: 5px;
+  background-color: red;
+}
+
+.list:hover{
+  cursor: pointer;
+  background-color: blue;
+} */
+
+.logo-img{
+  margin-top: 40px;
+
+}
+
+.user-icon {
+  margin-right: 3%;
+  cursor: pointer;
+  margin-top: 2%;
+  /* margin-left: -1000px; */
+  margin-right: 50px;
+  position: relative;
+}

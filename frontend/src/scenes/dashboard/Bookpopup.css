@@ -1,0 +1,109 @@
+/* 
+.modalBtn{
+    width: 1000px;
+     position: fixed; 
+     transform: translate(-50%,-50%); 
+    z-index: -1;
+} 
+ */
+
+.overlay{
+    background-color: rgba(0,0, 0, 0.5);
+    position: fixed;
+    width: 112%;
+    height: 100vh;
+    margin-top: -25%;
+    margin-left: -40%;
+}
+
+.modalContainer{
+    max-width: 900px;
+    height: 400px;
+    width: 100%;
+    position: fixed;
+    top:40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 18px 0px rgba(0,0, 0, 0.75);
+}
+
+img{
+    width: 500px;
+    height: 400px;
+    object-fit: cover;
+}
+
+.modalRight{
+    position: fixed;
+    width: 45%;
+    margin-top: -5.3%;
+    margin-bottom: 5.3%;
+    margin-left: 55%;
+    height: 400px;
+}
+
+.closeBtn{
+    position: fixed;
+    top:3px;
+    right: 15px;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-top: 3rem;
+    padding: 1rem 2rem;
+    font-weight: 300;
+}
+
+.btnContainer{
+    display: flex;
+    padding: 1rem 1rem;
+    margin-top: -40%;
+}
+
+.btnContainer button{
+    width: 100%;
+    margin: .5rem;
+    padding: 16px 0;
+    border: none;
+    color:#ffffff;
+}
+
+.btnPrimary{
+    background-color: #146aff;
+}
+
+.btnOutline{
+    background-color: #181829;
+}
+
+.bold{
+    font-weight: 600;
+}
+
+@media  screen and (max-width: 500px) {
+    .modalContainer{
+        flex-direction: column;
+        top: 0;
+        right: 0;
+        transform: none;
+        width: 100%;
+        height: 100vh;      
+    }
+
+    img{
+        width: 100%;
+    }
+
+    .closeBtn{
+        color: #ffffff;
+    }
+    
+}
+
+

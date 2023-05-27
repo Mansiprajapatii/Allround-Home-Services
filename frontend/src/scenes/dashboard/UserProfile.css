@@ -1,0 +1,158 @@
+/* 
+
+  .main {
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    height: 0%;
+    margin-top: 5%;
+    margin-left: 18%;
+    background-color: #ffffff;
+  }
+  
+
+  .profile{
+    background-color: rgb(140, 113, 113);
+    height: 510px;
+    border-radius: 15px;
+    margin-right: 5%;
+    margin-top: 0%;
+    position: relative;
+  }
+  
+  .profiledata{
+    position: absolute;
+    list-style: none;
+    margin-top: 15%;
+    background: #000;
+    color: #000000;
+    width: 350px;
+    margin-left:38%;
+    padding: 10px;
+    font-weight: 500;
+   
+    
+  }
+  
+  .light{
+    font-weight: 300;
+  }
+  
+  .l{
+    padding: 20px;
+  }
+  
+  .photo{
+    background-color: #07020242;
+    height: 190px;
+    width: 190px;
+    border-radius: 15px;
+    margin-left: 8%;
+    position: absolute;
+    margin-top: 10%;
+  }
+  
+  .pn{
+    margin-top: 120%;
+    color: black;
+    width: 150px;
+    font-weight: 600;
+    font-size: 20px;
+    margin-left: 3%;
+  }
+  
+  .pp{
+    font-weight: 300;
+    font-size: 15px;
+    width: 300px;
+    margin-left: -35%;
+    margin-top: -15%;
+  }
+  
+  .picon{
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    margin-top: 45%;
+    margin-left: 9.5%;
+    cursor: pointer;
+    color: #000000;
+  }
+
+  .header{
+    margin-left: 40%;
+    margin-top: 15%;
+  }
+
+    
+ */
+
+.box{
+    background-color: white;
+    height: 70vh;
+    width: 120vh;
+    margin-left: 150px;
+    margin-top: 100px;
+    position: relative;
+    border-radius:15px;
+}
+ .header{
+    margin-left: 38%;
+    position: absolute;
+    margin-top: 5%;
+    font-size: 3rem;
+ }
+
+ .left{
+    position: absolute;
+    /* background-color: #e6c4c437; */
+    height: 50vh;
+    width: 50vh;
+    margin-top: 15%;
+   box-shadow: inset;
+   box-shadow: 2cm gray;
+    margin-left: 5%;
+    border-radius: 15px;
+ }
+
+ .photo{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    margin-left: 20%;
+ 
+ }
+
+ .name{
+    position: absolute;
+    margin-top: 70%;
+    font-size: 1.3rem;
+    margin-left: 27%;
+ }
+
+ .right{
+    position: absolute;
+    /* background-color: #e6c4c437; */
+    height: 50vh;
+    width: 55vh;
+    margin-top: 15%;
+   box-shadow: inset;
+   box-shadow: 2cm gray;
+    margin-left: 50%;
+    border-radius: 15px;
+
+ }
+
+ .l{
+   list-style: none;
+   margin-top: 5%;
+ }
+
+ .button{
+    position: absolute;
+    margin-top: 15%;
+    margin-left: 150%;
+    padding: 50px;
+ }

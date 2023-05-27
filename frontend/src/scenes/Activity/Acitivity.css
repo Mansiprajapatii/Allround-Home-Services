@@ -1,0 +1,127 @@
+.item {
+  background-color: white;
+  height: 100px;
+  border-radius: 15px;
+  margin: auto;
+}
+
+.main-act {
+  width: 90%;
+  margin-top: 6%;
+  margin-left: 8%;
+}
+
+.detail {
+  background-color: white;
+  height: 180px;
+  border-radius: 15px;
+}
+.detail{
+  background-color: #4849FF;
+  display: flex;
+  justify-content: space-between;
+  height: 230px;
+}
+
+
+.info{
+  font-weight: 500;
+  font-size: 1.8rem;
+  color: white;
+  margin: 5% 4%;
+}
+
+.info-details{
+  font-weight: 400;
+  font-size: 1rem;
+  margin: -3% 0%;
+}
+
+.ele-svg{
+  height: 200px;
+  margin-top: 8%;
+  width: 350px;
+}
+
+
+.profile{
+  background-color: white;
+  height: 510px;
+  border-radius: 15px;
+  margin-top: -57%;
+  margin-right: 5%;
+  position: relative;
+}
+
+.em{
+  height: 100px;
+  width: 100px;
+}
+
+.profiledata{
+  position: absolute;
+  list-style: none;
+  margin-top: 55%;
+  /* background: #000; */
+  color: #000000;
+  width: 350px;
+  margin-left: 5%;
+  padding: 10px;
+  font-weight: 500;
+ 
+  
+}
+
+.light{
+  font-weight: 300;
+}
+
+.l{
+  padding: 20px;
+}
+
+.ph{
+  background-color: #d2aeae42;
+  height: 90px;
+  width: 90px;
+  border-radius: 15px;
+  margin-left: 38%;
+  position: absolute;
+  margin-top: 6%;
+}
+
+.pn{
+  margin-top: 11%;
+  color: black;
+  width: 250px;
+  font-weight: 600;
+  font-size: 20px;
+  margin-left: -20%;
+}
+
+.pp{
+  font-weight: 300;
+  font-size: 20px;
+  width: 300px;
+  margin-left: 5%;
+  margin-top: -10%;
+}
+
+.picon{
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+  margin-top: 52%;
+  margin-left: 30%;
+  cursor: pointer;
+}
+
+.table{
+  margin-top: 1%;
+}
+
+.bold{
+  font-weight: 500 ;
+}
+
