@@ -15,7 +15,7 @@ const SignUp = () => {
   function submit(e) {
     e.preventDefault(); 
     console.log(user);
-    fetch("http://localhost:5000/api/signin", {
+    fetch("https://ahs.up.railway.app/api/signin", {
       method: "POST",
       body: JSON.stringify(user),
       mode: "cors",

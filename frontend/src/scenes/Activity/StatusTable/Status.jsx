@@ -20,7 +20,7 @@ export default function Status() {
   const [com, setcom] = useState(false);
 
   const fetchTab = async () => {
-    const books = await fetch(`http://localhost:5000/api/mybookings?id=${id}`, {
+    const books = await fetch(`https://ahs.up.railway.app/api/mybookings?id=${id}`, {
       method: "GET",
       mode: "cors",
       headers: {
@@ -33,7 +33,7 @@ export default function Status() {
   };
   const fetchCom = async () => {
     const books = await fetch(
-      `http://localhost:5000/api/getcompbooks?id=${id}`,
+      `https://ahs.up.railway.app/api/getcompbooks?id=${id}`,
       {
         method: "GET",
         mode: "cors",
@@ -47,7 +47,7 @@ export default function Status() {
     setcomTab(data);
   };
   const handleComplete = (id) => {
-    fetch(`http://localhost:5000/api/setcomplete?id=${id}`, {
+    fetch(`https://ahs.up.railway.app/api/setcomplete?id=${id}`, {
       method: "PUT",
       mode: "cors",
       headers: {

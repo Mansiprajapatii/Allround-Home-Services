@@ -19,7 +19,7 @@ const UserBookings = () => {
   const [comtab, setcomTab] = useState([]);
   const [cn, setcn] = useState(false);
   const handleCancel = (id) => {
-    fetch(`http://localhost:5000/api/setcancel?id=${id}`, {
+    fetch(`https://ahs.up.railway.app/api/setcancel?id=${id}`, {
       method: "PUT",
       mode: "cors",
       headers: {
@@ -30,7 +30,7 @@ const UserBookings = () => {
     setcn((can) => !can);
   };
   const fetchTab = async () => {
-    const books = await fetch(`http://localhost:5000/api/stillbooks?id=${id}`, {
+    const books = await fetch(`https://ahs.up.railway.app/api/stillbooks?id=${id}`, {
       method: "GET",
       mode: "cors",
       headers: {
@@ -42,7 +42,7 @@ const UserBookings = () => {
     setTab(data);
   };
   const fetchComTab = async () => {
-    const books = await fetch(`http://localhost:5000/api/usercom?id=${id}`, {
+    const books = await fetch(`https://ahs.up.railway.app/api/usercom?id=${id}`, {
       method: "GET",
       mode: "cors",
       headers: {

@@ -46,7 +46,7 @@ export default function NestedModal() {
   })
   const [tab, setTab] = React.useState([]);
   const fetcher = async () => {
-    const emps = await fetch("http://localhost:5000/api/getpm", {
+    const emps = await fetch("https://ahs.up.railway.app/api/getpm", {
       method: "GET",
       headers: {
         "Content-Type": "application/json",
@@ -73,7 +73,7 @@ export default function NestedModal() {
     setOpen(false);
   };
   const PushBooking = ()=>{
-    fetch("http://localhost:5000/api/booking", {
+    fetch("https://ahs.up.railway.app/api/booking", {
       method: "POST",
       body: JSON.stringify(bookingData),
       mode: "cors",
