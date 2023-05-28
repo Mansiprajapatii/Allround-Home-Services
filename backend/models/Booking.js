@@ -9,7 +9,8 @@ const BookingSchema = new mongoose.Schema({
     uid:String,
     eid:String,
     completed:Boolean,
-    cancel:Boolean
+    cancel:Boolean,
+    uphone:String
 });
 
 const Books = mongoose.model("bookings", BookingSchema);
